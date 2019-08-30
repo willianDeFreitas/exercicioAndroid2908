@@ -9,7 +9,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RetrofitService {
-    private String baseUrl = "https://10.10.90.100/user";
+    private String baseUrl = "http://10.10.90.100/user";
     private ApiEndPoint api;
     private static RetrofitService instancia;
 
